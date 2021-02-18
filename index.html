@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML/CSS Project</title>
+  <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+  <style>
+    color: red;
+    margin-top: 40px;
+    position: relative;
+    text-align: center;
+  </style>
+</head>
+<body>
+    <h1>Welcome!</h1>
+    <p>Angular is a framework used to buildweb applications.</p>
+    <p>Create high-performing and accessible applications using Angular </p>
+    <h1 id="message"></h1>
+    <button onclick="writeMessage()">Click Me</button>
+    <script>
+    function writeMessage() {
+        document.getElementById("message").innerHTML = "Hello From JavaScript!";
+    }
+    </script>
+</body>
+</html>
