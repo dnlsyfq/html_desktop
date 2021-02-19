@@ -6,14 +6,28 @@ Declaritive language
 <elementname attribute="">
 
 ### Header tag 
-
+```
 <header></header>
-
+```
 ### Nav tag
 
+```
 <header>
     <nav></nav>
 </header>
+```
+
+```
+<nav role="navigation" aria-label="main menu">
+    <ul class="navbar">
+        <li><a href="/">Home</a></li>
+        <li><a href="/people">People</a></li>
+        <li><a href="/prices">Prices</a></li>
+        <li><a href="/contact">Contact</a></li>
+    </ul>
+</nav>
+```
+
 
 ### Main tag , Footer tag
 ```
