@@ -181,3 +181,54 @@ mathml
 &trade;
 &star;
 &nbsp; // dont break
+
+### image
+```
+<img src="https://_.jpg" alt=" " width="500" height="400">
+
+<img src="https:// "
+    alt=" "
+    width=" "
+    height=" "
+    srcset="
+        https:// dog-960.jpg  2x,
+        https:// dog-1440.jpg 3x,
+        https:// dog-1920.jpg 4x">
+        
+<img src="https:// dog-960.jpg"
+    alt=" "
+    width=" "
+    height=" "
+    srcset="
+        https:// dog-960.jpg  960w,
+        https:// dog-1440.jpg 1440w,
+        https:// dog-1920.jpg 1920w"
+    sizes="
+        (max-width: 480px) 240px,
+        (max-width: 960px) 480px,
+        (max-width: 1440px) 960px,
+        1920px"
+        >        
+
+<picture>
+    <source media="(min-width:600px)"
+        srcset="https:// dog2-320.jpg 320w,
+                https:// dog2-480.jpg 480w">
+    
+    <source srcset="https://    dog2-cropped-320.jpg 320w,
+                    https://    dog2-cropped-480.jpg 480w">
+    
+    <img src="https:// .jpg"
+        alt=" "
+        height="360px"
+        width="480px">
+    
+</picture>
+
+<figure>
+    <img src="" height="" alt="" >
+    
+    <figcaption>
+    </figcaption>
+</figure>
+```
