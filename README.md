@@ -4,6 +4,33 @@
 Declaritive language
 
 <elementname attribute="">
+    
+Structuring content
+* main
+main content , only 1
+* header
+content at header
+* footer
+content at footer
+* article
+wrap around any instance of an article
+* section
+wrap section around content
+* aside
+marks content that is off to side or not main attraction 
+    
+### Head tag
+
+* card on google
+```
+<head>
+    <meta name="description" content="A description of this site that will show up in search engine results.">
+    <link href="main.css" rel="stylesheet">
+    <script src="_.js"></script>
+</head>
+```
+
+
 
 ### Header tag 
 ```
